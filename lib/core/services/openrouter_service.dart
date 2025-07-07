@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 
 class OpenRouterService {
   static const String _baseUrl = 'https://openrouter.ai/api/v1';
-  static const String _apiKey = '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';
+  static const String _apiKey = 'you have to past your api key here';
   static const String _model = 'deepseek/deepseek-r1:free';
 
   static final OpenRouterService _instance = OpenRouterService._internal();
